@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Книжная полка</title>
+    </head>
+    <body>
+        <main>
+            <h1>Книжная полка</h1>
+            <button class="add_book">Добавить книгу</button>
+
+            <div class="books__list">
+
+
+                <!--<div class="book" id="book-%id%">-->
+                    <!--&lt;!&ndash;<img class="book__image" src="%image%"/>&ndash;&gt;-->
+                    <!--<img class="book__image" src="https://ozon-st.cdn.ngenix.net/multimedia/c150/1011499468.jpg"/>-->
+                    <!--<div class="description">-->
+                        <!--<div class="book__title">%title%</div>-->
+                        <!--<div class="book__author">%title%</div>-->
+                        <!--<div class="book__release">%title%</div>-->
+                    <!--</div>-->
+                    <!--<div class="book_button">-->
+                        <!--<button class="edit&#45;&#45;btn">Редактировать</button>-->
+                        <!--<button class="delete&#45;&#45;btn">Удалить</button>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+            </div>
+
+        </main>
+        <div class="form-container">
+            <form class="form">
+                <h1>Добавление книги</h1>
+                <div class="form_inputs">
+                    <input type="text" class="add_name" placeholder="Наименование">
+                    <input type="text" class="add_author" placeholder="Автор">
+                    <input type="number" class="add_date" placeholder="Год выпуска">
+                    <input type="text" class="url" placeholder="URL изображения">
+                </div>
+                <div class="button_block">
+                    <input type="button" name="save" value="Сохранить">
+                    <input type="button" name="cancel" value="Отменить">
+                </div>
+            </form>
+        </div>
+        <div class="edit-container">
+            <form class="edit">
+                <h1>Редактирование книги</h1>
+                <div class="form_inputs">
+                    <input type="text" class="edit_name" placeholder="Наименование">
+                    <input type="text" class="edit_author" placeholder="Автор">
+                    <input type="number" class="edit_date" placeholder="Год выпуска">
+                    <input type="text" class="edit_url" placeholder="URL изображения">
+                </div>
+                <div class="button_block">
+                    <input type="button" class="save_edit" value="Сохранить">
+                    <input type="button" class="close_edit" value="Отменить">
+                </div>
+            </form>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
